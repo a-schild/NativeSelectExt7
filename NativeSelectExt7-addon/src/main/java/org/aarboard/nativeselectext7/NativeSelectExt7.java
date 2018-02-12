@@ -1,12 +1,52 @@
 package org.aarboard.nativeselectext7;
 
+import com.vaadin.v7.data.Container;
 import com.vaadin.v7.ui.NativeSelect;
+import java.util.Collection;
 import org.aarboard.nativeselectext7.client.NativeSelectExt7State;
 
 // This is the server-side UI component that provides public API 
 // for NativeSelectExt7
 public class NativeSelectExt7 extends NativeSelect  {
 
+    /** 
+     * Creates a new NativeSelectExt7 with an empty caption and no items.
+     */
+    public NativeSelectExt7()
+    {
+        super();
+    }
+        
+    /** 
+     * Creates a new NativeSelectExt7 with the given caption and no items.
+     * @param caption field caption
+     */
+    public NativeSelectExt7(String caption)
+    {
+        super(caption);
+    }
+    
+    /** 
+     * Creates a new NativeSelectExt7 with the given caption,
+     * containing the data items in the given collection.
+     * @param caption field caption
+     * @param items     Items to populate
+     */
+    public NativeSelectExt7(String caption, Collection<?> items)
+    {
+        super(caption, items);
+    }
+    
+    /** 
+     * Creates a new NativeSelectExt7 with the given caption, 
+     * using the given DataProvider as the source of data items.
+     * @param caption    field caption
+     * @param dataSource    Data source for select
+     */
+    public NativeSelectExt7(String caption, Container dataSource)
+    {
+        super(caption, dataSource);
+    }
 
     public void setItemDisabled(Object itemId, boolean disabled) {
         boolean modified= false;

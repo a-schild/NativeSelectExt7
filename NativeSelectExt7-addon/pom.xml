@@ -5,9 +5,12 @@
 	<groupId>org.aarboard</groupId>
 	<artifactId>NativeSelectExt7</artifactId>
 	<packaging>jar</packaging>
-	<version>1.0</version>
+	<version>1.1</version>
 	<name>NativeSelectExt7 - NativeSelectExt7 Add-on</name>
-
+        <organization>
+            <name>Aarboard AG</name>
+        </organization>
+    
 	<prerequisites>
 		<maven>3</maven>
 	</prerequisites>

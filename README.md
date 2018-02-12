@@ -1,6 +1,22 @@
 # NativeSelectExt7 Add-on for Vaadin 8
 
-${ComponentClassName} is a UI component add-on for Vaadin 8.
+NativeSelectExt7 is a UI component add-on for Vaadin 8.
+It allows disabled entris in the NativeSelect component.
+
+This component is based on the com.vaadin.v7.ui.NativeSelect version,
+so you will have to include the vaadin 7 compatibility layers in your v8 project.
+
+You can modify the style of the disabled items, by providing your own css
+rules. Make sure to test the css rules, since not all browser allow all rules
+for the option drop down entries.
+
+Current rules are:
+
+    select option:disabled {
+        background-color: lightgray;
+        color: black;
+    }
+
 
 ## Online demo
 
@@ -51,15 +67,12 @@ Debugging client side code in the NativeSelectExt7-demo project:
  
 ## Release notes
 
-### Version 1.0-SNAPSHOT
-- ...
-- ...
+### Version 1.1
+- Added all constructors of base class
 
-## Roadmap
+### Version 1.0
+- Initital release
 
-This component is developed as a hobby with no public roadmap or any guarantees of upcoming releases. That said, the following features are planned for upcoming releases:
-- ...
-- ...
 
 ## Issue tracking
 
@@ -79,7 +92,7 @@ Contributions are welcome, but there are no guarantees that they are accepted as
 
 Add-on is distributed under Apache License 2.0. For license terms, see LICENSE.txt.
 
-NativeSelectExt7 is written by <...>
+NativeSelectExt7 is written by <a.schild@aarboard.ch>
 
 # Developer Guide
 
@@ -87,24 +100,9 @@ NativeSelectExt7 is written by <...>
 
 Here is a simple example on how to try out the add-on component:
 
-<...>
+    component.setItemDisabled("Item 4", status);
 
 For a more comprehensive example, see src/test/java/org/vaadin/template/demo/DemoUI.java
 
 ## Features
-
-### Feature A
-
-<...>
-
-### Feature B
-
-<...>
-
-### Feature C
-
-<...>
-
-## API
-
-NativeSelectExt7 JavaDoc is available online at <...>
+- Allows to disable items in the NativeSelect drop down
