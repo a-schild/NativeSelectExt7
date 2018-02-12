@@ -67,6 +67,9 @@ Debugging client side code in the NativeSelectExt7-demo project:
  
 ## Release notes
 
+### Version 1.7.1
+- Version for vaadin 7
+
 ### Version 1.1
 - Added all constructors of base class
 

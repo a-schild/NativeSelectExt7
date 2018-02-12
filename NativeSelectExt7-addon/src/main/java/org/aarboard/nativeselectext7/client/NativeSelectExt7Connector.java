@@ -10,8 +10,8 @@ import com.vaadin.client.UIDL;
 import org.aarboard.nativeselectext7.NativeSelectExt7;
 
 import com.vaadin.shared.ui.Connect;
-import com.vaadin.v7.client.ui.VNativeSelect;
-import com.vaadin.v7.client.ui.nativeselect.NativeSelectConnector;
+import com.vaadin.client.ui.VNativeSelect;
+import com.vaadin.client.ui.nativeselect.NativeSelectConnector;
 import java.util.List;
 import java.util.logging.Level;
 import java.util.logging.Logger;

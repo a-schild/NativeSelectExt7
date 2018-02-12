@@ -5,7 +5,7 @@
 	<groupId>org.aarboard</groupId>
 	<artifactId>NativeSelectExt7-root</artifactId>
 	<packaging>pom</packaging>
-	<version>1.0</version>
+	<version>1.7.1</version>
 	<name>NativeSelectExt7 - NativeSelectExt7 Add-on Root Project</name>
 
 	<prerequisites>

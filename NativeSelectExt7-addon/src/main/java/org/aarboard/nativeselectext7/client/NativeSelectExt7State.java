@@ -15,7 +15,7 @@
  */
 package org.aarboard.nativeselectext7.client;
 
-import com.vaadin.v7.shared.ui.select.AbstractSelectState;
+import com.vaadin.shared.ui.select.AbstractSelectState;
 import java.util.LinkedList;
 import java.util.List;
 

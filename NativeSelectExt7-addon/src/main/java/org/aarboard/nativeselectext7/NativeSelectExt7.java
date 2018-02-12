@@ -1,7 +1,7 @@
 package org.aarboard.nativeselectext7;
 
-import com.vaadin.v7.data.Container;
-import com.vaadin.v7.ui.NativeSelect;
+import com.vaadin.data.Container;
+import com.vaadin.ui.NativeSelect;
 import java.util.Collection;
 import org.aarboard.nativeselectext7.client.NativeSelectExt7State;
 

@@ -11,6 +11,7 @@ import com.vaadin.server.VaadinRequest;
 import com.vaadin.server.VaadinServlet;
 import com.vaadin.ui.Alignment;
 import com.vaadin.ui.Button;
+import com.vaadin.ui.Label;
 import com.vaadin.ui.UI;
 import com.vaadin.ui.VerticalLayout;
 import java.util.Arrays;
@@ -45,6 +46,7 @@ public class DemoUI extends UI
         layout.setComponentAlignment(component, Alignment.MIDDLE_CENTER);
         setContent(layout);
         component.setItemDisabled("Item 4", status);
+        layout.addComponent(new Label("Vaadin 7 based"));
         Button b= new Button("Toggle 'Item 1'");
         layout.addComponent(b);
         b.addClickListener((event) -> {
