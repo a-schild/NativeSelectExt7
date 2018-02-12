@@ -1,9 +1,9 @@
-# NativeSelectExt7 Add-on for Vaadin 8
+# NativeSelectExt7 Add-on for Vaadin 7 and 8
 
-NativeSelectExt7 is a UI component add-on for Vaadin 8.
+NativeSelectExt7 is a UI component add-on for Vaadin 7+8.
 It allows disabled entris in the NativeSelect component.
 
-This component is based on the com.vaadin.v7.ui.NativeSelect version,
+In vaadin 8 the  component is based on the com.vaadin.v7.ui.NativeSelect version,
 so you will have to include the vaadin 7 compatibility layers in your v8 project.
 
 You can modify the style of the disabled items, by providing your own css
@@ -67,11 +67,14 @@ Debugging client side code in the NativeSelectExt7-demo project:
  
 ## Release notes
 
+### Version 1.7.1
+- Version/branch for vaadin 7
+
 ### Version 1.1
-- Added all constructors of base class
+- Added all constructors of base class (Vaadin 8 release)
 
 ### Version 1.0
-- Initital release
+- Initital release (Vaadin 8 release)
 
 
 ## Issue tracking
